@@ -6,6 +6,7 @@ def minOperations(n):
     """Return the minimum number of operations for n"""
     oper = 0
     div = 2
+    
     if n < 2:
         return 0
     
